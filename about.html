@@ -9,64 +9,102 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">Candra Lorensia Ardiyanti</div>
-        <nav>
-            <a href="index.html" class="active">Beranda</a>
-            <a href="about.html">Tentang</a>
-            <a href="portfolio.html">Portofolio</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Kontak</a>
-        </nav>
-    </header>
-    <section id="about-section" class="about-section">
-        <h2 class="page-title">About Candra Lorensia Ardiyanti</h2>
-        <p class="page-subtitle">(I also go by Candra most of the times.)</p>
-        <div class="about-flex">
-            <div class="about-bio">
-                <p>I love building with data and crafting the technologngs insights to life. I am currently sharpening
-                    my skills on both ends of the stack, pursuing my degree in Data Science while immersing myself in a
-                    rigorous Full Stack Developmer bootcamp by Perempuan Inovasi.</p>
-                <p>My academic journey has equipped me with a strong foundation in statistical modeling, data wrangling,
-                    and machine learning. I thrive on the challenge of finding patterns and stories hidden within
-                    complex datasets.</p>
-                <p>But I believe an insight is only as powerful as its application. That's why I'm building the
-                    engineering muscle to not only understand what the data says but to build the elegant, scalable
-                    applications that make that understanding accessible and useful.</p>
-                <p>I am passionate about the entire pipeline from the Python notebooks and SQL queries that power the
-                    analysis to the React components and API endpoints that create a tangible user experience. My goal
-                    is to become a versatile builder who can own a project from a data hypothesis all the way to a
-                    deployed product.</p>
-                <p>I'm currently seeking opportunities where I can apply this unique blend of analytical rigor and
-                    full-stack craftsmanship to create impactful, data-driven solutions.</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">Candra</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="cta-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="about section" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-badge">About Me</span>
+                <h2 class="section-title">Building the Bridge Between Data & Applications</h2>
+                <p class="section-description">
+                    I'm passionate about the entire pipeline from data analysis to deployed applications
+                </p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="about.png"
+                        alt="About Image">
+                </div>
+                <div class="about-content">
+                    <h3>From Data Science to Full Stack Development</h3>
+                    <p>
+                        I love building with data and crafting technologies that bring insights to life. Currently, I'm
+                        sharpening my skills on both ends of the stack, pursuing my degree in Data Science while
+                        immersing myself in a rigorous Full Stack Developer bootcamp by Perempuan Inovasi.
+                    </p>
+                    <p>
+                        My academic journey has equipped me with a strong foundation in statistical modeling, data
+                        wrangling, and machine learning. I thrive on the challenge of finding patterns and stories
+                        hidden within complex datasets.
+                    </p>
+                    <p>
+                        But I believe an insight is only as powerful as its application. That's why I'm building the
+                        engineering muscle to not only understand what the data says but to build the elegant, scalable
+                        applications that make that understanding accessible and useful.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>Creating beautiful and interactive user interfaces</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <p>Building robust server-side applications</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Databases</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Data Science</h3>
+                    <p>Analyzing data to extract meaningful insights</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Machine Learning</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Tools & Others</h3>
+                    <p>Version control and development tools</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Team Work</span>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <section class="skills-section">
-            <h2 class="page-title">My Skills</h2>
-            <!-- Menggunakan kontainer flexbox untuk membuat kartu bersebelahan -->
-            <div class="skills-card-container">
-                <div class="skills-card">
-                    <h3>Technical Skills</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">HTML, CSS & JavaScript</div>
-                        <div class="skill-item">React & Node.js</div>
-                        <div class="skill-item">Python (Pandas, NumPy)</div>
-                        <div class="skill-item">SQL & Databases</div>
-                        <div class="skill-item">Git & GitHub</div>
-                    </div>
-                </div>
-                <div class="skills-card">
-                    <h3>Non-Technical Skills</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">Problem Solving</div>
-                        <div class="skill-item">Team Collaboration</div>
-                        <div class="skill-item">Communication</div>
-                        <div class="skill-item">Adaptability</div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </section>
 </body>
 

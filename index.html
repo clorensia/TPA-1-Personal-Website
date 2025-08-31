@@ -7,40 +7,68 @@
     <title>My Personal Website</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<style></style>
+    <style></style>
 </head>
 
 <body>
-    <header>
-        <div class="logo">Candra Lorensia Ardiyanti</div>
-        <nav>
-            <a href="index.html" class="active">Beranda</a>
-            <a href="about.html">Tentang</a>
-            <a href="portfolio.html">Portofolio</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Kontak</a>
-        </nav>
-    </header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">Candra</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="cta-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <main class="content">
-        <!-- Beranda -->
-        <section id="home-section" class="hero-section">
-            <div class="hero-content" style="text-align: center;">
-                <h1 class="hero-title hero-name"><i><b>Candra Lorensia Ardiyanti</b></i></h1>
-                <p class="hero-roles">
-                    I am a 
-                    <span class="changing-text-container">
-                        <span class="changing-text">passionate student</span>
-                        <span class="changing-text">fullstack developer</span>
-                        <span class="changing-text">growth expert</span>
-                        <span class="changing-text">data enthusiast</span>
-                    </span>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    ✨
+                </div>
+                <h1 class="hero-title">Hi, I'm Candra Lorensia</h1>
+                <p class="hero-subtitle">
+                    A passionate Data Science student and Full Stack Developer who transforms data into insights and builds elegant, scalable applications.
                 </p>
-                <a href="#about-section" class="btn primary-btn" style="margin-top: 2rem;">Pelajari Lebih Lanjut</a>
+                <div class="hero-cta">
+                    <a href="portfolio.html" class="btn-primary">View My Work</a>
+                    <a href="contact.html" class="btn-secondary">Let's Talk</a>
+                </div>
             </div>
-            <div class="hero-image-container">
-                <img src="test.png" alt="Foto Profil Anda" class="profile-photo">
+            <div class="hero-image">
+                <div class="profile-container">
+                    <div class="profile-bg"></div>
+                    <img src="test.png" alt="Profile Photo" class="profile-photo">
+                </div>
             </div>
-        </section></body>
+        </div>
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Years Learning</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Technologies</span>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+</body>
 
 </html>

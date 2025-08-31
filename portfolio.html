@@ -9,53 +9,77 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">Candra Lorensia Ardiyanti</div>
-        <nav>
-            <a href="index.html" class="active">Beranda</a>
-            <a href="about.html">Tentang</a>
-            <a href="portfolio.html">Portofolio</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Kontak</a>
-        </nav>
-    </header>
-    <section id="portfolio-section">
-        <h2 class="page-title">Portfolio</h2>
-        <p class="page-subtitle">My projects and capabilities</p>
-        <div class="portfolio-grid">
-            <!-- Project 1: BMI Calculator -->
-            <div class="project-card">
-                <img src="https://placehold.co/400x250/3498db/FFFFFF?text=BMI+Calculator" alt="BMI Calculator Project">
-                <h3>BMI Calculator</h3>
-                <p>A simple web application to calculate Body Mass Index (BMI) using pure HTML, CSS, and JavaScript.</p>
-                <a href="https://tpa2bmicalc.netlify.app/" class="btn secondary-btn" target="_blank">View Project</a>
-                <a href="https://github.com/clorensia/TPA-2---BMI-Calc" class="btn tertiary-btn" target="_blank"
-                    style="margin-top: 10px;">GitHub Repo</a>
-            </div>
-
-            <!-- Project 2: Landing Page -->
-            <div class="project-card">
-                <img src="https://placehold.co/400x250/2ecc71/FFFFFF?text=Landing+Page"
-                    alt="Digital Literacy Landing Page Project">
-                <h3>Digital Literacy Landing Page</h3>
-                <p>A final project for the "Perempuan Inovasi" program focusing on web development.</p>
-                <a href="https://literasidigitallandingpage.netlify.app/" class="btn secondary-btn" target="_blank">View
-                    Project</a>
-                <a href="https://github.com/clorensia/LiterasiDigital" class="btn tertiary-btn" target="_blank"
-                    style="margin-top: 10px;">GitHub Repo</a>
-            </div>
-
-            <!-- Project 3: Data Analysis -->
-            <div class="project-card">
-                <img src="https://placehold.co/400x250/9b59b6/FFFFFF?text=Data+Analysis"
-                    alt="Cyclistic Data Analysis Project">
-                <h3>Cyclistic Bike Share Case Study</h3>
-                <p>A data analysis of over 5.6 million bike rides to uncover trends between casual and member riders.
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">Candra</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="cta-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="portfolio section" id="portfolio">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-badge">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    Here are some of my recent projects showcasing my skills in development and data analysis
                 </p>
-                <a href="https://www.kaggle.com/code/candralorensia/cyclistic-bike-share-case-study"
-                    class="btn secondary-btn" target="_blank">View Analysis</a>
-                <a href="https://github.com/clorensia/Cyclistic-Case-Study" class="btn tertiary-btn" target="_blank"
-                    style="margin-top: 10px;">GitHub Repo</a>
+            </div>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <div class="project-image">BMI Calculator</div>
+                    <div class="project-content">
+                        <h3 class="project-title">BMI Calculator Web App</h3>
+                        <p class="project-description">
+                            Developed a BMI Calculator to practice conditional logic. The program calculates BMI
+                             and categorizes results using if-else statements..
+                        </p>
+                        <div class="project-links">
+                            <a href="https://tpa2bmicalc.netlify.app/" class="project-link primary" target="_blank">Live
+                                Demo</a>
+                            <a href="https://github.com/clorensia/TPA-2---BMI-Calc" class="project-link secondary"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">Landing Page</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Digital Literacy Landing</h3>
+                        <p class="project-description">
+                            A responsive landing page for Perempuan Inovasi premilinary program, featuring modern design principles
+                            and smooth user experience.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://literasidigitallandingpage.netlify.app/" class="project-link primary"
+                                target="_blank">Live Demo</a>
+                            <a href="https://github.com/clorensia/LiterasiDigital" class="project-link secondary"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📊 Data Analysis</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Cyclistic Bike Share Analysis</h3>
+                        <p class="project-description">
+                            Comprehensive data analysis of over 5.6 million bike rides to uncover trends between casual
+                            and member riders using Python.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://www.kaggle.com/code/candralorensia/cyclistic-bike-share-case-study"
+                                class="project-link primary" target="_blank">View Analysis</a>
+                            <a href="https://github.com/clorensia/Cyclistic-Case-Study" class="project-link secondary"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
