@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-     <header>
+    <header>
         <div class="logo">Candra Lorensia Ardiyanti</div>
         <nav>
             <a href="index.html" class="active">Beranda</a>
@@ -17,5 +19,133 @@
             <a href="contact.html">Kontak</a>
         </nav>
     </header>
+    <section id="contact-section">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h1>Get In Touch</h1>
+                <div class="divider"></div>
+                <p>I'd love to hear from you! Whether you have a project in mind, a question, or just want to say hello.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact form -->
+                <div class="contact-form-card">
+                    <h2>Send me a message</h2>
+                    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain"
+                        class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="candra@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" required rows="6"
+                                placeholder="Hi Candra, I'd like to..."></textarea>
+                        </div>
+                        <button type="submit" class="form-submit-btn">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info and Social Links -->
+                <div class="contact-info-card">
+                    <h2>Contact Info</h2>
+                    <div class="contact-info-list">
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-mail">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-item-label">Email</p>
+                                <p class="contact-item-value">candra0326@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-phone">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2.18A19.5 19.5 0 0 1 2 2.18 2 2 0 0 1 4.18 0z">
+                                    </path>
+                                    <path d="M12 22a10 10 0 0 1-10-10"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-item-label">Phone</p>
+                                <p class="contact-item-value">+62 857-3553-3092</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 8-10 12-10 12S1 18 1 10a10 10 0 0 1 20 0z"></path>
+                                    <circle cx="11" cy="8" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-item-label">Location</p>
+                                <p class="contact-item-value">Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2>Find me online</h2>
+                    <div class="social-links">
+                        <a href="https://github.com/clorensia" target="_blank" rel="noopener noreferrer">
+                            <div class="social-link-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-github">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v3m12 3v-12c0-3.3-2.7-6-6-6s-6 2.7-6 6v12M9 19h6">
+                                    </path>
+                                    <path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0"></path>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/candralorensia" target="_blank" rel="noopener noreferrer">
+                            <div class="social-link-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-linkedin">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="available-note">
+                        <div class="available-status">
+                            <div class="available-status-dot"></div>
+                            <span>Currently Available</span>
+                        </div>
+                        <p class="available-text">
+                            I'm open to new projects and opportunities. Let's chat!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
